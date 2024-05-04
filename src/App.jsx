@@ -30,11 +30,14 @@ function App() {
       <form onSubmit={handleSearchSubmit}>
         <input
           type="text"
+          className="search"
           value={searchTerm}
           onChange={handleSearchChange}
           placeholder="Enter city name..."
         />
-        <button type="submit">Search</button>
+        <button type="submit" className="btn">
+          Search
+        </button>
       </form>
       {isLoading && <p>Loading...</p>}
       {error && <p>Error: {error.message}</p>}

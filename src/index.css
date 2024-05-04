@@ -17,3 +17,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.search {
+  border-radius: 5px;
+  padding: 12px 24px;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 5px;
+  padding: 12px 24px;
+}
