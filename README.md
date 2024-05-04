@@ -3,6 +3,9 @@
 Run :
 
 npm i
+
+
+
 npm run dev
 
 Nhấn f12 vào phần devtool chuyển qua chế độ mobile.
